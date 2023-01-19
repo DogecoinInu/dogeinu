@@ -119,7 +119,7 @@ Wallet changes
 When creating a transaction with a fee above `-maxtxfee` (default 0.1 DOGEINU),
 the RPC commands `walletcreatefundedpsbt` and  `fundrawtransaction` will now fail
 instead of rounding down the fee. Beware that the `feeRate` argument is specified
-in DOGEINU per kilobyte, not litoshi per byte.
+in DOGEINU per kilobyte, not ngaydogeinu per byte.
 
 Documentation
 -------------
