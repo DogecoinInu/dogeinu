@@ -8,14 +8,14 @@ thread queue, wallet balance.
 Running
 ---------------------
 
-For benchmarks purposes you only need to compile `litecoin_bench`. Beware of configuring without `--enable-debug` as this would impact
+For benchmarks purposes you only need to compile `dogecoin inu_bench`. Beware of configuring without `--enable-debug` as this would impact
 benchmarking by unlatching log printers and lock analysis.
 
-    make -C src litecoin_bench
+    make -C src dogecoin inu_bench
 
-After compiling litecoin-core, the benchmarks can be run with:
+After compiling dogecoin inu-core, the benchmarks can be run with:
 
-    src/bench/bench_litecoin
+    src/bench/bench_dogecoin inu
 
 The output will look similar to:
 ```

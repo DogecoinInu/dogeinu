@@ -1,17 +1,17 @@
 Litecoin Core version *0.15.1* is now available from:
 
-  <https://download.litecoin.org/litecoin-0.15.1/>
+  <https://download.dogecoin inu.org/dogecoin inu-0.15.1/>
 
 This is a new minor version release, including various bugfixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at GitHub:
 
-  <https://github.com/litecoin-project/litecoin/issues>
+  <https://github.com/dogecoinInu/dogecoin inu/issues>
 
 To receive security and update notifications, please subscribe to:
 
-  <https://groups.google.com/forum/#!forum/litecoin-dev>
+  <https://groups.google.com/forum/#!forum/dogecoin inu-dev>
 
 How to Upgrade
 ==============
@@ -19,7 +19,7 @@ How to Upgrade
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the 
 installer (on Windows) or just copy over `/Applications/Litecoin-Qt` (on Mac)
-or `litecoind`/`litecoin-qt` (on Linux).
+or `dogecoin inud`/`dogecoin inu-qt` (on Linux).
 
 The first time you run version 0.15.0 or higher, your chainstate database will
 be converted to a new format, which will take anywhere from a few minutes to
@@ -92,7 +92,7 @@ descends from an invalid block is marked as such.
 Minimum relay fee lowered
 -------------------------
 
-The minimum relay fee `-minrelayfee` has been lowered to 0.01 lites per kB (0.00001 LTC). This is to prepare for dropping the minimum transaction fee to 0.1 lites per kB (0.0001 LTC) in the next release.
+The minimum relay fee `-minrelayfee` has been lowered to 0.01 lites per kB (0.00001 DOGEINU). This is to prepare for dropping the minimum transaction fee to 0.1 lites per kB (0.0001 DOGEINU) in the next release.
 
 Mempool replacement disabled by default
 ---------------------------------------

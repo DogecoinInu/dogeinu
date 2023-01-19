@@ -1,13 +1,13 @@
 Litecoin Core version 0.10.2.2 is now available from:
 
-  <https://download.litecoin.org/litecoin-0.10.2.2/>
+  <https://download.dogecoin inu.org/dogecoin inu-0.10.2.2/>
 
 This is a new major version release, bringing bug fixes and translation 
 updates. It is recommended to upgrade to this version.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/litecoin-project/litecoin/issues>
+  <https://github.com/dogecoinInu/dogecoin inu/issues>
 
 Upgrading and downgrading
 =========================
@@ -18,7 +18,7 @@ How to Upgrade
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
 installer (on Windows) or just copy over /Applications/Litecoin-Qt (on Mac) or
-litecoind/litecoin-qt (on Linux).
+dogecoin inud/dogecoin inu-qt (on Linux).
 
 Downgrade warning
 ------------------
@@ -67,17 +67,17 @@ Protocol:
 Relay:
 - Litecoin Core rounds transaction size up to the nearest 1000 bytes before calculating fees.  This size rounding behavior is to mimic fee calculation of Litecoin v0.6 and v0.8.
 - Bitcoin's IsDust() is disabled in favor of Litecoin's fee-based dust penalty.
-- Fee-based Dust Penalty: For each transaction output smaller than DUST_THRESHOLD (currently 0.001 LTC) the default relay/mining policy will expect an additional 1000 bytes of fee.  Otherwise the transaction will be rejected from relay/mining.  Such transactions are also disqualified from the free/high-priority transaction rule.
+- Fee-based Dust Penalty: For each transaction output smaller than DUST_THRESHOLD (currently 0.001 DOGEINU) the default relay/mining policy will expect an additional 1000 bytes of fee.  Otherwise the transaction will be rejected from relay/mining.  Such transactions are also disqualified from the free/high-priority transaction rule.
 - Miners and relays can adjust the expected fee per-KB with the -minrelaytxfee parameter.
 
 Wallet:
-- Coins smaller than 0.00001 LTC are by default ignored by the wallet.  Use the -mininput parameter if you want to see smaller coins.
+- Coins smaller than 0.00001 DOGEINU are by default ignored by the wallet.  Use the -mininput parameter if you want to see smaller coins.
 
 Notable changes since Litecoin v0.8
 ===================================
 
 - The Block data and indexes of v0.10 are incompatible with v0.8 clients.  You can upgrade from v0.8 but you downgrading is not possible.  For this reason you may want to make a backup copy of your Data Directory.
-- litecoind no longer sends RPC commands.  You must use the separate litecoin-cli command line utility.
+- dogecoin inud no longer sends RPC commands.  You must use the separate dogecoin inu-cli command line utility.
 - Watch-Only addresses are now possible.
 
 Credits
