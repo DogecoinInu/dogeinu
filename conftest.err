@@ -1,4 +1,0 @@
-In file included from conftest.cpp:79:0:
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:1135:4: error: #error "You must build your code with position independent code if Qt was built with -reduce-relocations. " "Compile your code with -fPIC (-fPIE is not enough)."
- #  error "You must build your code with position independent code if Qt was built with -reduce-relocations. "\
-    ^~~~~
